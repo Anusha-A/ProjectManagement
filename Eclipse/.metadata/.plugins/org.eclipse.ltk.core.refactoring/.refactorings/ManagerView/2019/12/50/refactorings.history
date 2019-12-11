@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SwaggerConfig.java&apos; to &apos;project-management/src/main/java/com.example.demo.config&apos;&#x0D;&#x0A;- Original project: &apos;ManagerView&apos;&#x0D;&#x0A;- Destination element: &apos;project-management/src/main/java/com.example.demo.config&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.SwaggerConfig.java&apos;" description="Copy compilation unit" destination="=project-management/src\/main\/java&lt;com.example.demo.config" element1="/src\/main\/java&lt;com.example.demo{SwaggerConfig.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1575813535232" units="1" version="1.0"/>
+</session>

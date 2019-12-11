@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ProjectControllerTest" project="AdminView" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.demo.controller.ProjectControllerTest" time="0.816">
+    <testcase name="verifyAllCompletedProjectList" classname="com.example.demo.controller.ProjectControllerTest" time="0.668"/>
+    <testcase name="verifyAllOngoingProjectList" classname="com.example.demo.controller.ProjectControllerTest" time="0.043"/>
+    <testcase name="verifyAllProjectList" classname="com.example.demo.controller.ProjectControllerTest" time="0.058"/>
+    <testcase name="verifyProjectById" classname="com.example.demo.controller.ProjectControllerTest" time="0.047"/>
+  </testsuite>
+</testrun>

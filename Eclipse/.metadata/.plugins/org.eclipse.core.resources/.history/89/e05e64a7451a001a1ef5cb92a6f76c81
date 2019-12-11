@@ -1,0 +1,27 @@
+server:
+  port: 1234
+  
+ 
+spring:
+  datasource:
+    url:  jdbc:mysql://localhost:3306/project_management?useSSL=false&serverTimezone=UTC
+    username: root
+    password: pass@word1
+    
+  jpa:
+    hibernate:
+     # dialect: org.hibernate.dialect.MySQL5Dialect
+      ddl-auto: none
+    show-sql: true
+  application:
+    name: admin-service
+  cloud:
+   config:
+     uri: http://localhost:8765/
+  data:
+    mongodb:
+       uri: mongodb://127.0.0.1:27017/projectDescStakeDatabase
+      
+     
+ 
+  

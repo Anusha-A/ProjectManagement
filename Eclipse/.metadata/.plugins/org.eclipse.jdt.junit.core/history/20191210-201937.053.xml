@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ProjectControllerTest" project="AdminView" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.demo.controller.ProjectControllerTest" time="0.745">
+    <testcase name="verifyAllProjectList" classname="com.example.demo.controller.ProjectControllerTest" time="0.653"/>
+    <testcase name="verifyProjectById" classname="com.example.demo.controller.ProjectControllerTest" time="0.092"/>
+  </testsuite>
+</testrun>

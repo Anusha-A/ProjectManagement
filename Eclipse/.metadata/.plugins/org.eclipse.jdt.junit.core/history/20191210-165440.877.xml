@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ProjectControllerTest.verifyAllProjectList" project="AdminView" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="verifyAllProjectList" classname="com.example.demo.controller.ProjectControllerTest" time="1.641"/>
+</testrun>

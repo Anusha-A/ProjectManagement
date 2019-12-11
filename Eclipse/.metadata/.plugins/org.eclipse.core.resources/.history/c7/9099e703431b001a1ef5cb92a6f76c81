@@ -1,0 +1,53 @@
+package com.example.demo.service;
+
+
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import com.example.demo.entity.Project;
+import com.example.demo.repository.ProjectRepository;
+
+
+
+@RunWith(SpringJUnit4ClassRunner.class)
+public class ProjectServiceTest {
+	
+	@Mock
+	private ProjectRepository projectRepository; 
+	
+	@InjectMocks
+	private ProjectServiceImpl projectService;
+	
+	@Before
+	public void setup(){
+		MockitoAnnotations.initMocks(this);
+	}
+	
+	
+	@Test
+	public void testGetById(){
+		String sDate="24/09/2016";
+		String eDate="20/04/2018";
+		Project project = new Project(new Long(1),"Gym management System",new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse(sDate),new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse(eDate),"http://github.com/Anusha-A/gymmanagement",new Long(20000),true,2);
+		when(projectRepository.getprojectById(1L).thenReturn(Project);
+		Project result = projectService.getById(new Long(1));
+		assertEquals(1, result.getId());
+		assertEquals("Todo Sample 1", result.getText());
+		assertEquals(true, result.isCompleted());
+	}
+
+}

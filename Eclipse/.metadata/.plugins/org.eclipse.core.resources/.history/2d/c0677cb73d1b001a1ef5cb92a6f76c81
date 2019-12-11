@@ -1,0 +1,10 @@
+package com.example.demo.controller;
+
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = SpringIbmProjectApplication.class)
+@SpringBootTest
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+public class ProjectControllerTest {
+
+}
